@@ -1,3 +1,6 @@
 $(document).ready(function(){ 
-$("div").hide().fadeIn(1000);
+  setTimeout(function() {
+    $("#menu").hide().fadeIn(1000);
+
+  }, 500);
 })
