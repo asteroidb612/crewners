@@ -31,6 +31,7 @@ li {
   padding: 6em;
   border: 1px;
   text-align: center;
+  list-style: none;
 }
 
 a:link { 
