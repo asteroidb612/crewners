@@ -29,7 +29,7 @@ li {
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   padding: 2em;
-  border: 1px;
+  border: 1px, white;
   text-align: center;
   list-style: none;
   font-size: 28px;
@@ -44,7 +44,7 @@ a:visited {
   color:white;}
 
 a:hover {
-  text-decoration:none;
+  text-decoration:border 1px;
   color:white;
 }
 
