@@ -25,4 +25,7 @@ img#sign {
 ul {
   margin-left: auto;
   margin-right: auto;
-  color: white
+  color: white;
+  font-family: Satellite;
+  text-decoration: none;
+}
