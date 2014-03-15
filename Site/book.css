@@ -6,9 +6,7 @@ html {
   background-size: cover;
 }
 
-div {
-  left-margin: auto;
-  right-margin: auto;
-  top-margin: auto;
-  bottom-margin: auto;
+#booking_widget_container{
+  position: absolute;
 }
+
