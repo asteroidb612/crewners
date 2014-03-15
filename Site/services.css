@@ -6,17 +6,28 @@ html {
   background-size:cover;
 }
 
+ul {
+  position: absolute;
+  bottom: 1px;
+}
+
+li:last-child p{
+  color:black;
+}
+
 li {
-  margin-left: auto;
-  margin-right: auto;
+  display: inline;
+  float: left;
+  width: 24%;
   list-style: none;
+  padding: .2em;
 }
 
 .cut {
   font-family: 'Lato', sans-serif;
   color: white;
   text-align: center;
-  font-size: 36px
+  font-size: 18px
 }
 
 .price {
@@ -24,12 +35,12 @@ li {
   text-decoration: italic;
   color: white;
   text-align: center;
-  font-size: 24px;
+  font-size: 10px;
 }
 
 .description {
   font-family: 'Lato', sans-serif;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 16px;
 }
