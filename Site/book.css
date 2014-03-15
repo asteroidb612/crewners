@@ -1,0 +1,14 @@
+html {
+  background: url('images/book.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  left-margin: auto;
+  right-margin: auto;
+  top-margin: auto;
+  bottom-margin: auto;
+}

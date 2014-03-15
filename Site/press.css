@@ -1,0 +1,39 @@
+html {
+  background: url('images/press.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  padding: .5em;
+  border: white 1px
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+}
+
+a:link {
+  text-decoration:none;
+  color:white;
+}
+a:visited {
+  text-decoration:none;
+  color:white;
+}
+
+a:hover {
+  text-decoration:border 1px;
+  color:white;
+}
+
+a:active {
+  text-decoration:none;
+  color:white;
+}
