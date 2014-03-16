@@ -1,10 +1,12 @@
 div, body{
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 .page {
   margin: 0;
+  background-color: transparent;
   height: 728px;
   width: 100%;
   padding-top: 2em;
@@ -63,6 +65,7 @@ div, body{
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+  -ms-behavior: url(/backgroundsize.min.htc);
 }
 
 #about p {
@@ -113,6 +116,7 @@ div, body{
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+  -ms-behavior: url(/backgroundsize.min.htc);
 }
 
 #service_list {
@@ -164,6 +168,7 @@ div, body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ -ms-behavior: url(/backgroundsize.min.htc); 
 }
 
 #booking_widget_container{
@@ -178,10 +183,12 @@ div, body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ -ms-behavior: url(/backgroundsize.min.htc); 
 }
 
 #menu {
   display: none;
+  background-color: transparent;
 }
 
 img#sign {
@@ -200,6 +207,7 @@ img#sign {
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+ -ms-behavior: url(/backgroundsize.min.htc); 
 }
 
 #information li {
