@@ -90,23 +90,23 @@ div, body{
 }
 
 #about a:link {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
 }
 
 #about a:visited {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
 }
 
 #about a:hover {
   text-decoration: underline;
   color: white;
-  border: 1px solid white;
+
 }
 
 #about a:active {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
 }
 
@@ -141,7 +141,7 @@ div, body{
   font-weight: bold;
   text-align: center;
   font-size: 24px;
-  text-decoration: underline;
+  text-decoration: underline 0.5px;
 }
 
 #services .price {
