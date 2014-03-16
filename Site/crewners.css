@@ -10,36 +10,6 @@ div, body{
   padding-top: 2em;
 }
 
-#about {
-  background: url('images/about.jpg') no-repeat top center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-}
-
-#about p {
-  font-family: 'Lato',sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6em;
-  color: white;
-  text-align: center;
-  font-size: 36px
-}
-
-#book {
-  background: url('images/book.jpg') no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#booking_widget_container{
-  position: absolute;
-}
-
 #homepage {
   background: url('images/homepage-blur.jpg') no-repeat top center fixed;
   -webkit-background-size: cover;
@@ -104,6 +74,120 @@ img#sign {
 #homepage a:active {
   text-decoration:none;
   padding: 9px;
+  color:white;
+}
+
+#about {
+  background: url('images/about.jpg') no-repeat top center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#about p {
+  font-family: 'Lato',sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6em;
+  color: white;
+  text-align: center;
+  font-size: 36px
+}
+
+#services {
+  margin-top: 4em;
+  background: url('images/services.jpg') no-repeat top center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#services li {
+  display: inline;
+  float: left;
+  width: 29%;
+  list-style: none;
+  padding: .2em;
+  text-align: center;
+}
+
+#services .cut {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+#services .price {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#services .description {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+#press {
+  background: url('images/press.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#press ul {
+  margin-top: 10em;
+}
+#press li {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  padding: .1em;
+  border: white 1px;
+  list-style: none;
+  font-size: 30px;
+}
+
+#press .quote {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+}
+
+#press a:link {
+  text-decoration:none;
+  color:white;
+}
+#press a:visited {
+  text-decoration:none;
+  color:white;
+}
+
+#press a:hover {
+  text-decoration:border 1px;
+  color:white;
+}
+
+#press a:active {
+  text-decoration:none;
   color:white;
 }
 
@@ -172,98 +256,14 @@ img#sign {
   color: white;
 }
 
-#press {
-  background: url('images/press.jpg') no-repeat top center fixed;
+#book {
+  background: url('images/book.jpg') no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#press ul {
-  margin-top: 10em;
-}
-#press li {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  padding: .1em;
-  border: white 1px;
-  list-style: none;
-  font-size: 30px;
-}
-
-#press .quote {
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  font-style: italic;
-}
-
-#press a:link {
-  text-decoration:none;
-  color:white;
-}
-#press a:visited {
-  text-decoration:none;
-  color:white;
-}
-
-#press a:hover {
-  text-decoration:border 1px;
-  color:white;
-}
-
-#press a:active {
-  text-decoration:none;
-  color:white;
-}
-
-#services {
-  margin-top: 4em;
-  background: url('images/services.jpg') no-repeat top center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-}
-
-#services li {
-  display: inline;
-  float: left;
-  width: 29%;
-  list-style: none;
-  padding: .2em;
-  text-align: center;
-}
-
-#services .cut {
-  font-family: 'Lato', sans-serif;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  font-size: 24px;
-  text-decoration: underline;
-}
-
-#services .price {
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-  font-style: italic;
-}
-
-#services .description {
-  font-family: 'Lato', sans-serif;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  font-size: 18px;
+#booking_widget_container{
+  position: absolute;
 }
