@@ -22,10 +22,10 @@ div, body{
   font-family: 'Lato',sans-serif;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2em;
+  padding-top: 4em;
   color: white;
   text-align: center;
-  font-size: 24px
+  font-size: 36px
 }
 
 #book {
@@ -123,6 +123,17 @@ img#sign {
   list-style: none;
 }
 
+#information .contact {
+  display: inline;
+  float: center;
+  text-align: center;
+  left-margin: auto;
+  right-margin: auto;
+  width: 50%;
+  list-style: none;
+  padding: 2em;
+}
+
 #information .title {
   font-family: 'Lato', sans-serif;
   font-size: 28px;
@@ -144,7 +155,7 @@ img#sign {
 #information .infop {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  text-decoration: italic;
+  font-style: italic;
   color: white;
   text-align: center;
   left-margin: auto;
@@ -170,7 +181,7 @@ img#sign {
 }
 
 #press ul {
-  margin-top: 25em;
+  margin-top: 10em;
 }
 #press li {
   margin-left: auto;
@@ -178,10 +189,19 @@ img#sign {
   color: white;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
-  padding: .5em;
+  padding: .1em;
   border: white 1px;
   list-style: none;
   font-size: 30px;
+}
+
+#press .quote {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
 }
 
 #press a:link {
@@ -218,6 +238,7 @@ img#sign {
   width: 29%;
   list-style: none;
   padding: .2em;
+  text-align: center;
 }
 
 #services .cut {
@@ -230,11 +251,12 @@ img#sign {
 
 #services .price {
   font-family: 'Lato', sans-serif;
-  text-decoration: italic;
+  text-decoration: none;
   font-weight: bold;
   color: white;
   text-align: center;
   font-size: 14px;
+  font-style: italic;
 }
 
 #services .description {
