@@ -158,6 +158,39 @@ div, body{
   font-size: 18px;
 }
 
+#services .book {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+
+#services a:link {
+  font-family: 'Lato', sans-serif;
+  border: white 1px;
+  text-decoration: none;
+}
+
+#services a:visited {
+  font-family: 'Lato', sans-serif;
+  border: white 1px;
+  text-decoration: none;
+  
+}
+
+#services a:hover {
+  font-family: 'Lato', sans-serif;
+  border: white 1px;
+  text-decoration: none;
+}
+
+#services a:active {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  border: white 1px;
+}
+
 #book {
   background: url('images/book.jpg') no-repeat top center fixed;
   -webkit-background-size: cover;
