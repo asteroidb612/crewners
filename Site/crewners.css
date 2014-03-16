@@ -50,7 +50,7 @@ div, body{
 
 #menu {
   display: none;
-}  
+}
 
 img#sign {
   margin: 7%;
@@ -82,7 +82,7 @@ img#sign {
   padding:9px;
 }
 
-#homepage a:link { 
+#homepage a:link {
   text-decoration:none;
   padding: 9px;
   color:white;
@@ -97,7 +97,7 @@ img#sign {
 #homepage a:hover {
   text-decoration: none;
   padding: 9px;
-  border: 1px solid white; 
+  border: 1px solid white;
   color:white;
 }
 
@@ -135,6 +135,16 @@ img#sign {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   text-decoration: none;
+  color: white;
+  text-align: center;
+  left-margin: auto;
+  right-margin: auto;
+}
+
+#information .infop {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-decoration: italic;
   color: white;
   text-align: center;
   left-margin: auto;
@@ -224,7 +234,7 @@ img#sign {
   font-weight: bold;
   color: white;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #services .description {
@@ -232,5 +242,5 @@ img#sign {
   color: white;
   font-weight: bold;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
