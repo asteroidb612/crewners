@@ -1,7 +1,6 @@
-Spacing on front page
+White lines
+Book appointment
 Scrolling instead of running
-Darken the rest of hte pages
 Fix font
 Services only as big as the text
 Quotes or seperate page for the press
-End is solid
