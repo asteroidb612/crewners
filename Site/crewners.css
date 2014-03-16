@@ -4,10 +4,57 @@ div, body{
 }
 
 .page {
-  margin-top: 0;
+  margin: 0;
   min-height: 800 ;
   width: 100%;
   padding-top: 2em;
+}
+
+#homepage li {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  padding: .5em;
+  text-align: center;
+  list-style: none;
+  font-size: 28px;
+}
+
+#homepage li:last-child a {
+  border: 1px solid white;
+  padding: 9px;
+}
+
+#homepage li:last-child:hover a {
+  border: 2px solid white;
+  padding:9px;
+}
+
+#homepage a:link {
+  text-decoration:none;
+  padding: 9px;
+  color:white;
+}
+
+#homepage a:visited {
+  text-decoration:none;
+  padding: 9px;
+  color:white;
+}
+
+#homepage a:hover {
+  text-decoration: none;
+  padding: 9px;
+  border: 1px solid white;
+  color:white;
+}
+
+#homepage a:active {
+  text-decoration:none;
+  padding: 9px;
+  color:white;
 }
 
 #about {
@@ -60,203 +107,7 @@ div, body{
   color: white;
 }
 
-#book {
-  background: url('images/book.jpg') no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#booking_widget_container{
-  position: absolute;
-}
-
-#homepage {
-  background: url('images/homepage-blur.jpg') no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#menu {
-  display: none;
-}
-
-img#sign {
-  margin: 7%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-#homepage li {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  padding: .5em;
-  text-align: center;
-  list-style: none;
-  font-size: 28px;
-}
-
-#homepage li:last-child a {
-  border: 1px solid white;
-  padding: 9px;
-}
-
-#homepage li:last-child:hover a {
-  border: 2px solid white;
-  padding:9px;
-}
-
-#homepage a:link {
-  text-decoration:none;
-  padding: 9px;
-  color:white;
-}
-
-#homepage a:visited {
-  text-decoration:none;
-  padding: 9px;
-  color:white;
-}
-
-#homepage a:hover {
-  text-decoration: none;
-  padding: 9px;
-  border: 1px solid white;
-  color:white;
-}
-
-#homepage a:active {
-  text-decoration:none;
-  padding: 9px;
-  color:white;
-}
-
-#information {
-  padding-top: 8em;
-  background: url('images/information.jpg') no-repeat top center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-}
-
-#information li {
-  left-margin: auto;
-  right-margin: auto;
-  padding: 0.1em;
-  list-style: none;
-}
-
-#information .contact {
-  display: inline;
-  float: center;
-  text-align: center;
-  left-margin: auto;
-  right-margin: auto;
-  width: 50%;
-  list-style: none;
-  padding: 2em;
-}
-
-#information .title {
-  font-family: 'Lato', sans-serif;
-  font-size: 28px;
-  text-decoration: underline;
-  color: white;
-  text-align: center;
-}
-
-#information .info {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  left-margin: auto;
-  right-margin: auto;
-}
-
-#information .infop {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  color: white;
-  text-align: center;
-  left-margin: auto;
-  right-margin: auto;
-}
-
-#information table {
-  text-align: center;
-  left-margin: auto;
-  right-margin: auto;
-}
-
-#information td {
-  color: white;
-}
-
-#press {
-  background: url('images/press.jpg') no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#press ul {
-  margin-top: 10em;
-}
-#press li {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
-  padding: .1em;
-  border: white 1px;
-  list-style: none;
-  font-size: 30px;
-}
-
-#press .quote {
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  font-style: italic;
-}
-
-#press a:link {
-  text-decoration:none;
-  color:white;
-}
-#press a:visited {
-  text-decoration:none;
-  color:white;
-}
-
-#press a:hover {
-  text-decoration:border 1px;
-  color:white;
-}
-
-#press a:active {
-  text-decoration:none;
-  color:white;
-}
-
 #services {
-  margin-top: 0.1px;
   background: url('images/services.jpg') no-repeat top center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -267,9 +118,9 @@ img#sign {
 #services li {
   display: inline;
   float: left;
-  width: 31.65%;
+  width: 29%;
   list-style: none;
-  padding: 0.5em;
+  padding: .2em;
   text-align: center;
 }
 
@@ -298,4 +149,113 @@ img#sign {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
+}
+
+#book {
+  background: url('images/book.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#booking_widget_container{
+  position: absolute;
+}
+
+#homepage {
+  background: url('images/homepage-blur.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu {
+  display: none;
+}
+
+img#sign {
+  padding: 2em 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-bottom: 1px white solid;
+}
+
+#information {
+  padding-top: 8em;
+  background: url('images/information.jpg') no-repeat top center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#information li {
+  text-align: center;
+  list-style: none;
+  float: left;
+}
+
+#information .contact {
+  display: inline;
+  float: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  list-style: none;
+  padding: 2em;
+}
+
+#information .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+
+#information .info {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#information .infop {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#information table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#information td {
+  color: white;
+}
+
+#information ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contact {
+  margin-top: 2em;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
 }
