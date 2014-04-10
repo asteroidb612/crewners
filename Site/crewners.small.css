@@ -15,6 +15,11 @@ div, body{
 ul {
   padding: 0;
 }
+
+#homepage {
+  background-image:url(images/backgroundmobile.jpg)
+}
+
 #homepage li {
   margin-left: auto;
   margin-right: auto;
@@ -55,7 +60,7 @@ ul {
 }
 
 #about {
-  background: url('images/about.jpg') no-repeat top center fixed;
+  background: url('images/aboutmobile.jpg') no-repeat top center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -107,7 +112,7 @@ ul {
 }
 
 #services {
-  background: url('images/services.jpg') no-repeat top center fixed;
+  background: url('images/servicesmobile.jpg') no-repeat top center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -245,7 +250,7 @@ img#sign {
 
 #information {
   padding-top: 2em;
-  background: url('images/information.jpg') no-repeat top center fixed;
+  background: url('images/infomobile.jpg') no-repeat top center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
