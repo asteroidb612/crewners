@@ -12,6 +12,9 @@ div, body{
   padding-top: 2em;
 }
 
+ul {
+  padding: 0;
+}
 #homepage li {
   margin-left: auto;
   margin-right: auto;
@@ -308,4 +311,8 @@ img#sign {
 
 #contact {
   width: 114px;
+}
+
+#social {
+  padding-top: 2em;
 }
