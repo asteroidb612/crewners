@@ -235,11 +235,11 @@ ul {
 }
 
 img#sign {
-  padding: 2em 0;
+  padding: 0 0 .5em 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
   border-bottom: 1px white solid;
 }
 
