@@ -1,6 +1,1 @@
-White lines
-Book appointment
-Scrolling instead of running
-Fix font
-Services only as big as the text
-Quotes or seperate page for the press
+

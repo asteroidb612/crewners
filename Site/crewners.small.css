@@ -8,7 +8,6 @@ div, body{
 .page {
   margin: 0;
   background-color: transparent;
-  height: 728px;
   width: 100%;
   padding-top: 2em;
 }
@@ -24,15 +23,8 @@ div, body{
   list-style: none;
   font-size: 28px;
 }
-
-#homepage li:last-child a {
+#homepage li:last-child {
   border: 1px solid white;
-  padding: 9px;
-}
-
-#homepage li:last-child:hover a {
-  border: 2px solid white;
-  padding:9px;
 }
 
 #homepage a:link {
@@ -50,7 +42,6 @@ div, body{
 #homepage a:hover {
   text-decoration: none;
   padding: 9px;
-  border: 1px solid white;
   color:white;
 }
 
@@ -128,9 +119,8 @@ div, body{
 }
 
 #services li {
-  display: inline;
+  display: inline-block;
   float: left;
-  width: 32%;
   list-style: none;
   padding: .2em;
   text-align: center;
@@ -167,16 +157,15 @@ div, body{
   margin-left: auto;
   margin-right: auto;
   color: white;
+  border: 1px solid white;
   font-family: 'Lato', sans-serif;
   font-size: 36px;
   text-align: center;
-  padding-top: 4em;
 }
 
 #services a:link {
   padding: .5em;
   font-family: 'Lato', sans-serif;
-  border: 1px solid white;
   text-decoration: none;
   color: white;
 }
@@ -184,7 +173,6 @@ div, body{
 #services a:visited {
   padding: .5em;
   font-family: 'Lato', sans-serif;
-  border: 1px solid white;
   text-decoration: none;
   color: white;
 }
@@ -192,7 +180,6 @@ div, body{
 #services a:hover {
   padding: .5em;
   font-family: 'Lato', sans-serif;
-  border: 2px solid white;
   text-decoration: none;
   color: white;
 }
@@ -201,7 +188,6 @@ div, body{
   padding: .5em;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
-  border: 1px solid white;
   color: white;
 }
 
