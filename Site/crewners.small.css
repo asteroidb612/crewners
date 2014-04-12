@@ -17,9 +17,8 @@ ul {
 }
 
 #homepage {
-  background-image:url(images/backgroundmobile.jpg) no-repeat;
+  background: url('images/backgroundmobile.jpg') no-repeat;
 }
-
 #homepage li {
   margin-left: auto;
   margin-right: auto;
@@ -213,10 +212,6 @@ ul {
   margin-top: 6em;
   margin-left: auto;
   margin-right: auto;
-}
-
-#homepage {
-  background: url('images/homepage-blur.jpg') no-repeat;
 }
 
 #menu {
